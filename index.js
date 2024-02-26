@@ -14,6 +14,7 @@ conn
 })
 .catch((error) => console.error(error));*/}
 
+const server = require('./src/appServer.js');
 const exprees = require('express');
 const server = exprees();
 
